@@ -1,0 +1,96 @@
+.cartContainer {
+    width: 365px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cartContainer h2 {
+    background-color: var(--green-0);
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+    border-radius: 15px 15px 0px 0px;
+    margin: 0px;
+}
+
+.divCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--gray-0);
+    padding: 10px;
+    margin: 0px;
+}
+
+.totalContainer {
+    display: flex;
+    height: 150px;
+    border-radius: 0px 0px 15px 15px;
+    flex-direction: column;
+    background-color: var(--gray-0);
+}
+
+.totalContainer span {
+    display: flex;
+    justify-content: space-between;
+    margin: 2px;
+    font-weight: 500;
+    border-top: solid 3px var(--gray-1);
+}
+
+.totalContainer .removeAll {
+    background-color: var(--gray-1);
+    border: none;
+    width: 343px;
+    height: 60px;
+    margin: auto;
+    border-radius: 15px;
+    font-size: 18px;
+    color: var(--gray-3);
+    cursor: pointer;
+}
+
+.totalContainerNone {
+    display: none;
+}
+
+.cardCart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 10px auto;
+    text-align: center;
+    background-color: var(--gray-0);
+}
+
+.cardCart img {
+    background-color: var(--gray-1);
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.cardCart .productName {
+    color: #333333;
+    font-size: 14px;
+}
+
+.cardCart p {
+    font-size: 12px;
+    color: var(--gray-3);
+    font-weight: 500;
+}
+
+.cardCart button {
+    border: none;
+    background-color: var(--gray-0);
+    color: var(--gray-3);
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.containerCart {
+    background-color: var(--gray-0);
+}

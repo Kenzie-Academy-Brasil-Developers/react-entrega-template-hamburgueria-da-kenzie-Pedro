@@ -1,0 +1,26 @@
+.container {
+    width: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+@media (max-width: 1238px) {
+    .container {
+        height: 350px;
+        display: flex;
+        margin: 40px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    .container::-webkit-scrollbar {
+        background-color: rgba(255, 255, 255, 0);
+        width: 10px;
+    }
+
+    .container::-webkit-scrollbar-thumb {
+        background-color: var(--green-0);
+        border-radius: 20px;
+    }
+}
